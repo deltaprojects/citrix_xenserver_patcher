@@ -15,8 +15,8 @@ If there is a particular feature (or bug!) you want sorted, please feel free to 
 * Get the XenServer Patcher Script- plus any exclusion files you need/want (or create your own!):
 
 ```
-wget --no-check-certificate -O patcher.py https://raw.github.com/dalgibbard/citrix_xenserver_patcher/master/patcher.py
-wget --no-check-certificate -O XS62_exclusions.py https://raw.github.com/dalgibbard/citrix_xenserver_patcher/master/XS62_exclusions.py
+wget --no-check-certificate -O patcher.py https://raw.github.com/deltaprojects/citrix_xenserver_patcher/master/patcher.py
+wget --no-check-certificate -O XS65_exclusions.py https://raw.github.com/deltaprojects/citrix_xenserver_patcher/master/XS65_exclusions.py
 chmod +x patcher.py
 ```
 
@@ -25,7 +25,7 @@ chmod +x patcher.py
 *IMPORTANT NOTE: BE SURE TO LOAD APPROPRIATE EXCLUDES FILE WHERE NECESSARY! Below example is suitable for XenServer 6.2:*
 
 ```
-./patcher.py -e ./XS62_exclusions.py
+./patcher.py -e ./XS65_exclusions.py
 ```
 
 Alternatively, distribute using Puppet, or some other form of shininess. But the above works fine :)
