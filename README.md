@@ -22,7 +22,7 @@ chmod +x patcher.py
 
 * Run the patcher, and follow the prompts :)
 
-*IMPORTANT NOTE: BE SURE TO LOAD APPROPRIATE EXCLUDES FILE WHERE NECESSARY! Below example is suitable for XenServer 6.2:*
+*IMPORTANT NOTE: BE SURE TO LOAD APPROPRIATE EXCLUDES FILE WHERE NECESSARY! Below example is suitable for XenServer 6.5:*
 
 ```
 ./patcher.py -e ./XS65_exclusions.py
